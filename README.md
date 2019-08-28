@@ -1,2 +1,2 @@
-# Bare-Bone-Affix-
+# Bare-Bone-Affix
 Bare bone javascript affix plugin

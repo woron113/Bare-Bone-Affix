@@ -1,0 +1,30 @@
+body {
+    background: black;
+    color: white;
+    height: 800vh;
+}
+
+.affix-container {
+    border: white;
+    border: solid;
+    height: 1000px;
+    width: 400px;
+    margin-top: 150vh;
+    float: left;
+}
+
+.affix-container-de {
+    border: white;
+    border: solid;
+    height: 1000px;
+    width: 400px;
+    margin-top: 200vh;
+    float: left;
+}
+
+.affix {
+    border-color: darkred !important;
+    border: solid;
+    text-align: center;
+    width: 250px;
+}

@@ -1,0 +1,32 @@
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>Affix</title>
+    <link rel="stylesheet" type="text/css" href="affix.css">
+
+</head>
+
+<body>
+    <h1>Affix plugin</h1>
+
+    <div class="affix affix-bba" data-affix-number="1">
+        <h2>My little affix</h2>
+        <p>Let's see, what I can do</p>
+    </div>
+
+    <div class="affix-container affix-container-bba" data-affix-number="1">
+
+    </div>
+
+    <div class="affix-container-de affix-container-bba" data-affix-number="2">
+        <div class="affix affix-bba" data-affix-number="2">
+            <h2>My little affix</h2>
+            <p>Let's see, what I can do</p>
+        </div>
+    </div>
+
+    <script src="affix.js"></script>
+</body>
+
+</html>

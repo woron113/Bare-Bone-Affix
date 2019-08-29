@@ -10,11 +10,12 @@ Description:
         note: You can use css @keyframes to make a smooth animation for the jump
 
 Scraping from html:
+
     Affix: should get the class = 'affix-sja'
     Affix container: should get the class = 'affix-container-sja'
 
     You simply need to give the affix container relative element to affix, and the affix element
-    witch will be moved relative to the affix container.
+    which will be moved relative to the affix container.
 
 Classes:
     The affix element gets an 'affix-mode' class when its affixed

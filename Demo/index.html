@@ -10,7 +10,7 @@
 <body>
     <h1>Affix plugin</h1>
 
-    <div class="affix affix-bba" data-affix-number="1">
+    <div class="affix affix-bba animated" data-affix-number="1">
         <h2>My little affix</h2>
         <p>Let's see, what I can do</p>
     </div>
@@ -26,7 +26,12 @@
         </div>
     </div>
 
-    <script src="affix.js"></script>
 </body>
+
+<script src="../bare-bone-affix.js"></script>
+
+<script>
+    const affix1 = new BareBoneAffix({jumpToOriginalPosition: true});
+</script>
 
 </html>

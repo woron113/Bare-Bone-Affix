@@ -2,6 +2,7 @@
 Bare bone javascript affix plugin
 
 Description:
+
     Bare bone affix is an affix plugin that support multiple affixes at the same time.
     It has html scraping that also support multiple affixes at the same time.
     Natively its has 3 built in positions (top, mid, bottom) but you can specify it by number.
@@ -18,6 +19,7 @@ Scraping from html:
     which will be moved relative to the affix container.
 
 Classes:
+
     The affix element gets an 'affix-mode' class when its affixed
 
 Only works on Y axis

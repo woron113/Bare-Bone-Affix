@@ -62,7 +62,7 @@ class BareBoneAffix {
             // The position where the affix sits, it can be defaults: (top, mid, bottom) or any given number
             position: 'top',
             // If the affix element is not in the container, and you want it to jump back to is original position set it to true
-            jumpToOriginalPosition: false
+            jumpToOriginalPosition: true
         };
 
         this.settings = { ...defaultSettings, ...settings};

@@ -38,6 +38,9 @@ class BareBoneAffix {
         this.affixContainer = affixContainer;
         this.affix = affix;
 
+        // The event handler container
+        this.events = {};
+
         // Sets the default settings
         this.setDefaultSettings(settings);
 
@@ -99,8 +102,6 @@ class BareBoneAffix {
                 }
             }
         }
-
-
     }
 
     /**
@@ -142,7 +143,7 @@ class BareBoneAffix {
         }
 
         // Starting listening for change
-        window.addEventListener('scroll', () => {
+        this.events.scroller = () => {
             const windowTop = (window.pageYOffset || document.scrollTop) - (document.clientTop || 0),
             affixContainerTop = affixContainer.offsetTop,
             affixContainerHeight = affixContainer.offsetHeight;
@@ -170,6 +171,14 @@ class BareBoneAffix {
 
                 }
             }
-        });
+        };
+
+        window.addEventListener('scroll', this.events.scroller);
+    }
+
+    destroy() {
+        window.removeEventListener('scroll', this.events.scroller);
     }
 }
+
+export { BareBoneAffix };

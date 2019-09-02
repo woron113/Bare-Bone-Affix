@@ -103,8 +103,8 @@ Desktop:
 - [x] Chromium
 - [x] Firefox
 - [x] Opera
-- [x] IE
-- [x] Edge
+- [ ] IE
+- [ ] Edge
 
 Mobile:
 - [x] Firefox focus (Mobile)

@@ -1,5 +1,5 @@
 # Bare-Bone-Affix
-Bare bone javascript affix plugin
+Bare bone javascript affix plugin, that affixes an affix element relative to the a container.
 
 ![Example](/Resources/Example.gif)
 

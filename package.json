@@ -1,0 +1,33 @@
+{
+  "name": "bare-bone-affix",
+  "version": "1.0.0",
+  "description": "Javascript affix plugin, with multiple affix support, and relativ container support",
+  "main": "bare-bone-affix-minified.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woron113/Bare-Bone-Affix.git"
+  },
+  "keywords": [
+    "affix",
+    "javascript-affix",
+    "js-affix"
+  ],
+  "author": "Erik Ráczkövy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woron113/Bare-Bone-Affix/issues"
+  },
+  "homepage": "https://github.com/woron113/Bare-Bone-Affix#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

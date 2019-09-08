@@ -3,6 +3,7 @@
 
     Description:
         Bare bone affix is an affix plugin that support multiple affixes at the same time.
+        The affix works realtively to the container, so you can position it how you want and where you want
         It has html scraping that also support multiple affixes at the same time.
         Natively its has 3 built in positions (top, mid, bottom) but you can specify it by number.
         It support jumping to the container, so basically you can set the affix element anywhere it dont has
@@ -35,8 +36,15 @@ class BareBoneAffix {
      * @param affixContainer (optional)
      */
     constructor(settings, affix, affixContainer) {
-        this.affixContainer = affixContainer;
-        this.affix = affix;
+
+        if (affix && affixContainer && (affix.jquery !== undefined || affixContainer.jquery !== undefined)) {
+            this.affixContainer = affixContainer[0];
+            this.affix = affix[0];
+
+        } else {
+            this.affixContainer = affixContainer;
+            this.affix = affix;
+        }
 
         // The event handler container
         this.events = {};
@@ -66,6 +74,7 @@ class BareBoneAffix {
         };
 
         this.settings = { ...defaultSettings, ...settings};
+        console.log(this.settings)
     }
 
     init() {

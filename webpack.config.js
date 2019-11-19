@@ -16,5 +16,5 @@ module.exports = {
             presets: ['@babel/env']
         }
     },
-    mode: 'development'
+    mode: 'production'
 }

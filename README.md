@@ -57,7 +57,7 @@ Initializing in a javascript file
 There is an export in the affix. So you can just simply use the ```import { BareBoneAffix } from "barre-bone-affix"```.
 
 Note:
-* The from parameter need to be the path to the BareBoneAffix js file like ```import { BareBoneAffix } from "js/barre-bone-affix"```
+* The from parameter need to be the path to the BareBoneAffix js file like ```import { BareBoneAffix } from "../src/bare-bone-affix.js"```
 if its in the js directory.
 * Using the import, export module method in embedded scripts you need to give ```type="module"``` attribute to the import script tag.
 

@@ -74,7 +74,6 @@ class BareBoneAffix {
         };
 
         this.settings = { ...defaultSettings, ...settings};
-        console.log(this.settings)
     }
 
     init() {
